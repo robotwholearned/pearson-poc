@@ -404,8 +404,6 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/cassandras/Downloads/Bolts-iOS/ios",
-					"$(PROJECT_DIR)/pointOfEntry/libraries",
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -425,8 +423,6 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/cassandras/Downloads/Bolts-iOS/ios",
-					"$(PROJECT_DIR)/pointOfEntry/libraries",
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

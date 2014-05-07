@@ -18,16 +18,9 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-
-    UIButton* gotToFacebookButton = [[UIButton alloc] init];
-    gotToFacebookButton.frame = CGRectMake(44, 44, 300, 30);
-    [gotToFacebookButton setTitle:@"Go To Facebook"
-                         forState:UIControlStateNormal];
-    [gotToFacebookButton setBackgroundColor:[UIColor blueColor]];
-    [gotToFacebookButton addTarget:self
-                            action:@selector(goToFacebookPressed)
-                  forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:gotToFacebookButton];
+}
+- (IBAction)gotToAppPressed:(id)sender {
+    [self goToFacebookPressed];
 }
 - (void)goToFacebookPressed
 {
